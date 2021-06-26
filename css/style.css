@@ -1,0 +1,35 @@
+[class^=col]{
+	/*border: solid 1px;*/
+}
+#navDiv:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#headerNav .navbar-toggler{
+	color: white;
+	border-color: white;
+}
+#headerNav a, h1, h5{
+	font-weight: bolder;
+	color: white;
+}
+#headerNav a:hover{
+	font-weight: bolder;
+	color: grey;
+}
+#main{
+	background-image: url(../img/header/1.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	max-width: 100%;
+}
+#header{
+	padding: 12%;
+}
+#header h1{
+	font-size: 4rem;
+}
+#header h5{
+	font-size: 2rem;
+	font-weight: unset;
+}
